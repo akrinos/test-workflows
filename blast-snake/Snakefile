@@ -23,13 +23,13 @@ def getfilename(org):
 
 rule all:
     input:
-        blast_db = expand(os.path.join(OUTPUTDIR,"{org}_db.fasta"),org=["zebrafish","crypto"])
+        blast_db = expand(os.path.join(OUTPUTDIR,"{org}_db.fasta.phr"),org=["zebrafish","crypto"])
 
 rule blast_db:
     input:
         lambda filename: getfilename(filename.org)
     output:
-        os.path.join(OUTPUTDIR,"{org}_db.fasta")
+        os.path.join(OUTPUTDIR,"{org}_db.fasta.phr")
     #conda:
     #    "blast-env.yaml"
     params:
@@ -39,7 +39,7 @@ rule blast_db:
         out = os.path.join("logs","blast","{org}_db_out.log")
     shell:
         '''
-        gunzip {input} | makeblastdb -in -title {params.org} -out {output} -dbtype prot -parse_seqids
+        gunzip -c {input} | sed -e 's/[|]/-/g' | makeblastdb -in - -out {output} -dbtype prot -parse_seqids -title {params.org} 1> {log.out} 2> {log.err}
         '''
                 
 rule blast_compare:
