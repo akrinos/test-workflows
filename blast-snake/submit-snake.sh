@@ -14,4 +14,4 @@ DRYRUN=$4
 JOBS=100
 
 snakemake  \
-    -s $SNAKEFILE $RERUN_INCOMPLETE $DRYRUN --jobs $JOBS --use-conda
+    -s $SNAKEFILE $RERUN_INCOMPLETE $DRYRUN --cores 8 --use-conda
