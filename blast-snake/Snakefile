@@ -33,13 +33,14 @@ rule blast_db:
     #conda:
     #    "blast-env.yaml"
     params:
-        org = "{org}"
+        org = "{org}",
+        stubname=os.path.join(OUTPUTDIR,"{org}_db.fasta")
     log:
         err = os.path.join("logs","blast","{org}_db_err.log"),
         out = os.path.join("logs","blast","{org}_db_out.log")
     shell:
         '''
-        gunzip -c {input} | sed -e 's/[|]/-/g' | makeblastdb -in - -out {output} -dbtype prot -parse_seqids -title {params.org} 1> {log.out} 2> {log.err}
+        gunzip -c {input} | sed -e 's/[|]/-/g' | makeblastdb -in - -out {params.stubname} -dbtype prot -parse_seqids -title {params.org} 1> {log.out} 2> {log.err}
         '''
                 
 rule blast_compare:
