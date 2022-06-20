@@ -1,4 +1,0 @@
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/XML/Simple.pm relocate_as=../../../../XML/Simple.pm
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/XML/Simple/FAQ.pod relocate_as=../../../../XML/Simple/FAQ.pod
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/XML::Simple.3 relocate_as=../../../../../../../man/man3/XML::Simple.3
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/XML::Simple::FAQ.3 relocate_as=../../../../../../../man/man3/XML::Simple::FAQ.3

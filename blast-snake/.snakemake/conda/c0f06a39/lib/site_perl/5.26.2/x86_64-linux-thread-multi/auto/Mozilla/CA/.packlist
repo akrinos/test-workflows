@@ -1,4 +1,0 @@
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/Mozilla/CA.pm relocate_as=../../../../Mozilla/CA.pm
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/Mozilla/CA/cacert.pem relocate_as=../../../../Mozilla/CA/cacert.pem
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/Mozilla/mk-ca-bundle.pl relocate_as=../../../../Mozilla/mk-ca-bundle.pl
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/Mozilla::CA.3 relocate_as=../../../../../../../man/man3/Mozilla::CA.3

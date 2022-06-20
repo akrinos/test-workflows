@@ -1,7 +1,0 @@
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/bin/json_xs relocate_as=../../../../../../../bin/json_xs
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/x86_64-linux-thread-multi/JSON/XS.pm relocate_as=../../../JSON/XS.pm
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/x86_64-linux-thread-multi/JSON/XS/Boolean.pm relocate_as=../../../JSON/XS/Boolean.pm
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/JSON/XS/XS.so relocate_as=XS.so
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man1/json_xs.1 relocate_as=../../../../../../../man/man1/json_xs.1
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/JSON::XS.3 relocate_as=../../../../../../../man/man3/JSON::XS.3
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/JSON::XS::Boolean.3 relocate_as=../../../../../../../man/man3/JSON::XS::Boolean.3

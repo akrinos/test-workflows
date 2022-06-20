@@ -1,6 +1,0 @@
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/HTTP/Cookies.pm relocate_as=../../../../HTTP/Cookies.pm
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/HTTP/Cookies/Microsoft.pm relocate_as=../../../../HTTP/Cookies/Microsoft.pm
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/HTTP/Cookies/Netscape.pm relocate_as=../../../../HTTP/Cookies/Netscape.pm
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/HTTP::Cookies.3 relocate_as=../../../../../../../man/man3/HTTP::Cookies.3
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/HTTP::Cookies::Microsoft.3 relocate_as=../../../../../../../man/man3/HTTP::Cookies::Microsoft.3
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/HTTP::Cookies::Netscape.3 relocate_as=../../../../../../../man/man3/HTTP::Cookies::Netscape.3

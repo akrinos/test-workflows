@@ -1,3 +1,0 @@
-KeyError in line 18 of /vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/Snakefile:
-'outdir'
-  File "/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/Snakefile", line 18, in <module>

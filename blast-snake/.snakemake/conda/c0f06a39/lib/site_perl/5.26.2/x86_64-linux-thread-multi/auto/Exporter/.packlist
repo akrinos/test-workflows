@@ -1,4 +1,0 @@
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/Exporter.pm relocate_as=../../../Exporter.pm
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/Exporter/Heavy.pm relocate_as=../../../Exporter/Heavy.pm
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/Exporter.3 relocate_as=../../../../../../man/man3/Exporter.3
-/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/Exporter::Heavy.3 relocate_as=../../../../../../man/man3/Exporter::Heavy.3
