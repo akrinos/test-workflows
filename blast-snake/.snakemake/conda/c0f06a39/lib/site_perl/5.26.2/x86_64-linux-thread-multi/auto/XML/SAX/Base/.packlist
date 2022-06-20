@@ -1,0 +1,6 @@
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/XML/SAX/Base.pm relocate_as=../../../../../XML/SAX/Base.pm
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/XML/SAX/BuildSAXBase.pl relocate_as=../../../../../XML/SAX/BuildSAXBase.pl
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/XML/SAX/Exception.pm relocate_as=../../../../../XML/SAX/Exception.pm
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/XML::SAX::Base.3 relocate_as=../../../../../../../../man/man3/XML::SAX::Base.3
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/XML::SAX::BuildSAXBase.3 relocate_as=../../../../../../../../man/man3/XML::SAX::BuildSAXBase.3
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/XML::SAX::Exception.3 relocate_as=../../../../../../../../man/man3/XML::SAX::Exception.3

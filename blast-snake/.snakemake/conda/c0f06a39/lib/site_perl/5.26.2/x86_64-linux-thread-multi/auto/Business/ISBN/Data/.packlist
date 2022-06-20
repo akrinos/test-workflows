@@ -1,0 +1,4 @@
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/Business/ISBN/Data.pm relocate_as=../../../../../Business/ISBN/Data.pm
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/Business/ISBN/RangeMessage.xml relocate_as=../../../../../Business/ISBN/RangeMessage.xml
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/Business/ISBN/make_data.pl relocate_as=../../../../../Business/ISBN/make_data.pl
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/Business::ISBN::Data.3 relocate_as=../../../../../../../../man/man3/Business::ISBN::Data.3

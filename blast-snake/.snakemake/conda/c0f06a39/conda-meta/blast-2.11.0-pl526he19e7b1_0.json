@@ -1,0 +1,1041 @@
+{
+  "build": "pl526he19e7b1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "curl >=7.75.0,<8.0a0",
+    "entrez-direct",
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "pcre >=8.44,<9.0a0",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-archive-tar",
+    "perl-json",
+    "perl-list-moreutils",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/vortexfs1/home/akrinos/.conda/envs/eukrhythmic_sub/pkgs/blast-2.11.0-pl526he19e7b1_0",
+  "features": "",
+  "files": [
+    "bin/blast_formatter",
+    "bin/blastdb_aliastool",
+    "bin/blastdbcheck",
+    "bin/blastdbcmd",
+    "bin/blastn",
+    "bin/blastp",
+    "bin/blastx",
+    "bin/cleanup-blastdb-volumes.py",
+    "bin/convert2blastmask",
+    "bin/datatool",
+    "bin/deltablast",
+    "bin/dustmasker",
+    "bin/get_species_taxids.sh",
+    "bin/get_species_taxids.sh.bak",
+    "bin/legacy_blast.pl",
+    "bin/makeblastdb",
+    "bin/makembindex",
+    "bin/makeprofiledb",
+    "bin/project_tree_builder",
+    "bin/psiblast",
+    "bin/rpsblast",
+    "bin/rpsbproc",
+    "bin/rpstblastn",
+    "bin/run_with_lock",
+    "bin/segmasker",
+    "bin/tblastn",
+    "bin/tblastx",
+    "bin/update_blastdb.pl",
+    "bin/update_blastdb.pl.bak",
+    "bin/windowmasker",
+    "bin/windowmasker_2.2.22_adapter.py",
+    "lib/ncbi-blast+/libalign_format.so",
+    "lib/ncbi-blast+/libbiblio.so",
+    "lib/ncbi-blast+/libblast.so",
+    "lib/ncbi-blast+/libblast_app_util-static.a",
+    "lib/ncbi-blast+/libblast_app_util.a",
+    "lib/ncbi-blast+/libblast_services.so",
+    "lib/ncbi-blast+/libblastdb.so",
+    "lib/ncbi-blast+/libblastdb_format.so",
+    "lib/ncbi-blast+/libblastinput.so",
+    "lib/ncbi-blast+/libblastxml.so",
+    "lib/ncbi-blast+/libblastxml2.so",
+    "lib/ncbi-blast+/libcomposition_adjustment.so",
+    "lib/ncbi-blast+/libconnect.so",
+    "lib/ncbi-blast+/libdbapi_driver-static.a",
+    "lib/ncbi-blast+/libdbapi_driver.a",
+    "lib/ncbi-blast+/libdbapi_driver.so",
+    "lib/ncbi-blast+/libgbseq.so",
+    "lib/ncbi-blast+/libgene_info.so",
+    "lib/ncbi-blast+/libgeneral.so",
+    "lib/ncbi-blast+/libgenome_collection.so",
+    "lib/ncbi-blast+/libid1.so",
+    "lib/ncbi-blast+/libid2.so",
+    "lib/ncbi-blast+/liblmdb.so",
+    "lib/ncbi-blast+/libmedlars.so",
+    "lib/ncbi-blast+/libmedline.so",
+    "lib/ncbi-blast+/libmla.so",
+    "lib/ncbi-blast+/libmlacli.so",
+    "lib/ncbi-blast+/libncbi_xloader_blastdb.so",
+    "lib/ncbi-blast+/libncbi_xloader_blastdb_rmt.so",
+    "lib/ncbi-blast+/libncbi_xloader_genbank-static.a",
+    "lib/ncbi-blast+/libncbi_xloader_genbank.a",
+    "lib/ncbi-blast+/libncbi_xloader_genbank.so",
+    "lib/ncbi-blast+/libncbi_xreader-static.a",
+    "lib/ncbi-blast+/libncbi_xreader.a",
+    "lib/ncbi-blast+/libncbi_xreader.so",
+    "lib/ncbi-blast+/libncbi_xreader_cache-static.a",
+    "lib/ncbi-blast+/libncbi_xreader_cache.a",
+    "lib/ncbi-blast+/libncbi_xreader_cache.so",
+    "lib/ncbi-blast+/libncbi_xreader_id1-static.a",
+    "lib/ncbi-blast+/libncbi_xreader_id1.a",
+    "lib/ncbi-blast+/libncbi_xreader_id1.so",
+    "lib/ncbi-blast+/libncbi_xreader_id2-static.a",
+    "lib/ncbi-blast+/libncbi_xreader_id2.a",
+    "lib/ncbi-blast+/libncbi_xreader_id2.so",
+    "lib/ncbi-blast+/libproteinkmer.so",
+    "lib/ncbi-blast+/libpsg_client.so",
+    "lib/ncbi-blast+/libpub.so",
+    "lib/ncbi-blast+/libpubmed.so",
+    "lib/ncbi-blast+/libscoremat.so",
+    "lib/ncbi-blast+/libseq.so",
+    "lib/ncbi-blast+/libseqcode.so",
+    "lib/ncbi-blast+/libseqdb.so",
+    "lib/ncbi-blast+/libseqedit.so",
+    "lib/ncbi-blast+/libseqmasks_io.so",
+    "lib/ncbi-blast+/libseqset.so",
+    "lib/ncbi-blast+/libseqsplit.so",
+    "lib/ncbi-blast+/libsequtil.so",
+    "lib/ncbi-blast+/libsubmit.so",
+    "lib/ncbi-blast+/libtables.so",
+    "lib/ncbi-blast+/libtaxon1.so",
+    "lib/ncbi-blast+/libtaxon3.so",
+    "lib/ncbi-blast+/libtest_mt.so",
+    "lib/ncbi-blast+/libvalid.so",
+    "lib/ncbi-blast+/libvariation.so",
+    "lib/ncbi-blast+/libwritedb.so",
+    "lib/ncbi-blast+/libxalgoblastdbindex.so",
+    "lib/ncbi-blast+/libxalgodustmask.so",
+    "lib/ncbi-blast+/libxalgosegmask.so",
+    "lib/ncbi-blast+/libxalgowinmask.so",
+    "lib/ncbi-blast+/libxalnmgr.so",
+    "lib/ncbi-blast+/libxblast.so",
+    "lib/ncbi-blast+/libxblastformat.so",
+    "lib/ncbi-blast+/libxcgi.so",
+    "lib/ncbi-blast+/libxcleanup.so",
+    "lib/ncbi-blast+/libxcompress.so",
+    "lib/ncbi-blast+/libxconnect.so",
+    "lib/ncbi-blast+/libxconnserv.so",
+    "lib/ncbi-blast+/libxformat.so",
+    "lib/ncbi-blast+/libxhtml.so",
+    "lib/ncbi-blast+/libxlogging.so",
+    "lib/ncbi-blast+/libxncbi.so",
+    "lib/ncbi-blast+/libxnetblast.so",
+    "lib/ncbi-blast+/libxnetblastcli.so",
+    "lib/ncbi-blast+/libxobjedit.so",
+    "lib/ncbi-blast+/libxobjmgr.so",
+    "lib/ncbi-blast+/libxobjread.so",
+    "lib/ncbi-blast+/libxobjsimple.so",
+    "lib/ncbi-blast+/libxobjutil.so",
+    "lib/ncbi-blast+/libxregexp.so",
+    "lib/ncbi-blast+/libxregexp_template_tester.so",
+    "lib/ncbi-blast+/libxser.so",
+    "lib/ncbi-blast+/libxthrserv.so",
+    "lib/ncbi-blast+/libxutil.so"
+  ],
+  "fn": "blast-2.11.0-pl526he19e7b1_0.tar.bz2",
+  "license": "Public Domain",
+  "link": {
+    "source": "/vortexfs1/home/akrinos/.conda/envs/eukrhythmic_sub/pkgs/blast-2.11.0-pl526he19e7b1_0",
+    "type": 1
+  },
+  "md5": "324772c9b6233b1fcec87b6ca93c1720",
+  "name": "blast",
+  "package_tarball_full_path": "/vortexfs1/home/akrinos/.conda/envs/eukrhythmic_sub/pkgs/blast-2.11.0-pl526he19e7b1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/blast_formatter",
+        "path_type": "hardlink",
+        "sha256": "7db7d3c922cf54597043900c76889a8cf024f825652941a0c6b75f6fe6603b1f",
+        "sha256_in_prefix": "7db7d3c922cf54597043900c76889a8cf024f825652941a0c6b75f6fe6603b1f",
+        "size_in_bytes": 244096
+      },
+      {
+        "_path": "bin/blastdb_aliastool",
+        "path_type": "hardlink",
+        "sha256": "2d1f0f00cd195d6e33876ab84d9796478c71d4dbd9657c328f6dce9eacbe2e1b",
+        "sha256_in_prefix": "2d1f0f00cd195d6e33876ab84d9796478c71d4dbd9657c328f6dce9eacbe2e1b",
+        "size_in_bytes": 129400
+      },
+      {
+        "_path": "bin/blastdbcheck",
+        "path_type": "hardlink",
+        "sha256": "d2986c25bc14129fc911d4d58eb334c6cdc72ba7a3750199b4a90f9376c5be5b",
+        "sha256_in_prefix": "d2986c25bc14129fc911d4d58eb334c6cdc72ba7a3750199b4a90f9376c5be5b",
+        "size_in_bytes": 158064
+      },
+      {
+        "_path": "bin/blastdbcmd",
+        "path_type": "hardlink",
+        "sha256": "73fc48f81de6ea869e7686d899b69c14becbbc1749f86d92babac93a200bacbf",
+        "sha256_in_prefix": "73fc48f81de6ea869e7686d899b69c14becbbc1749f86d92babac93a200bacbf",
+        "size_in_bytes": 162160
+      },
+      {
+        "_path": "bin/blastn",
+        "path_type": "hardlink",
+        "sha256": "6061e09ab1b8169e2eca77b4e0e2e2d5af027302bef7f65d110ac8407f052028",
+        "sha256_in_prefix": "6061e09ab1b8169e2eca77b4e0e2e2d5af027302bef7f65d110ac8407f052028",
+        "size_in_bytes": 207224
+      },
+      {
+        "_path": "bin/blastp",
+        "path_type": "hardlink",
+        "sha256": "211b0f924178c7705b49af136308c65f3bd4ce5dd85f239b6860473b9817569f",
+        "sha256_in_prefix": "211b0f924178c7705b49af136308c65f3bd4ce5dd85f239b6860473b9817569f",
+        "size_in_bytes": 203128
+      },
+      {
+        "_path": "bin/blastx",
+        "path_type": "hardlink",
+        "sha256": "88c9f678d8b7ae217f2130e296c8be734c187c925b129346bfcaa161e53282b3",
+        "sha256_in_prefix": "88c9f678d8b7ae217f2130e296c8be734c187c925b129346bfcaa161e53282b3",
+        "size_in_bytes": 203128
+      },
+      {
+        "_path": "bin/cleanup-blastdb-volumes.py",
+        "path_type": "hardlink",
+        "sha256": "461958df49684e7496a7fc46738dc63f2bf5332f500f635ac565aacbf7f01c49",
+        "sha256_in_prefix": "461958df49684e7496a7fc46738dc63f2bf5332f500f635ac565aacbf7f01c49",
+        "size_in_bytes": 6243
+      },
+      {
+        "_path": "bin/convert2blastmask",
+        "path_type": "hardlink",
+        "sha256": "38f40e8b4d25c3806e8c77c41fec9d2c0289588569d89a3d0366ec2d3ce3feaa",
+        "sha256_in_prefix": "38f40e8b4d25c3806e8c77c41fec9d2c0289588569d89a3d0366ec2d3ce3feaa",
+        "size_in_bytes": 76040
+      },
+      {
+        "_path": "bin/datatool",
+        "path_type": "hardlink",
+        "sha256": "f8ed67d36b9435746b747637dd7f3646b0806b371f7aa235fce09da6a4ee6852",
+        "sha256_in_prefix": "f8ed67d36b9435746b747637dd7f3646b0806b371f7aa235fce09da6a4ee6852",
+        "size_in_bytes": 1468720
+      },
+      {
+        "_path": "bin/deltablast",
+        "path_type": "hardlink",
+        "sha256": "23da7e2172121db20b01994c8e6b6240744c3734fd86539a73545e3003a10989",
+        "sha256_in_prefix": "23da7e2172121db20b01994c8e6b6240744c3734fd86539a73545e3003a10989",
+        "size_in_bytes": 231800
+      },
+      {
+        "_path": "bin/dustmasker",
+        "path_type": "hardlink",
+        "sha256": "7e3b4f3b3b596aa8fd09f2b648ec114652816f5b6365841b4d5e290ed7a61a98",
+        "sha256_in_prefix": "7e3b4f3b3b596aa8fd09f2b648ec114652816f5b6365841b4d5e290ed7a61a98",
+        "size_in_bytes": 55544
+      },
+      {
+        "_path": "bin/get_species_taxids.sh",
+        "path_type": "hardlink",
+        "sha256": "693795b039e2dd9a94f3c6255970835f4e1cacd4987f03be9a88876a1d5cd595",
+        "sha256_in_prefix": "693795b039e2dd9a94f3c6255970835f4e1cacd4987f03be9a88876a1d5cd595",
+        "size_in_bytes": 4783
+      },
+      {
+        "_path": "bin/get_species_taxids.sh.bak",
+        "path_type": "hardlink",
+        "sha256": "385f2261198b5f6ccf21a61d494277b32dbbf35a73d5368b08babcdf86743441",
+        "sha256_in_prefix": "385f2261198b5f6ccf21a61d494277b32dbbf35a73d5368b08babcdf86743441",
+        "size_in_bytes": 4782
+      },
+      {
+        "_path": "bin/legacy_blast.pl",
+        "path_type": "hardlink",
+        "sha256": "dabba18382ba144b60c2d19e010bc7110a3a08d3e893666f1247face06bf03b4",
+        "sha256_in_prefix": "dabba18382ba144b60c2d19e010bc7110a3a08d3e893666f1247face06bf03b4",
+        "size_in_bytes": 51345
+      },
+      {
+        "_path": "bin/makeblastdb",
+        "path_type": "hardlink",
+        "sha256": "5168b0688d713f75da9b919da2f964bc6462ed1fe5fbcbb20631eaaa88728989",
+        "sha256_in_prefix": "5168b0688d713f75da9b919da2f964bc6462ed1fe5fbcbb20631eaaa88728989",
+        "size_in_bytes": 207224
+      },
+      {
+        "_path": "bin/makembindex",
+        "path_type": "hardlink",
+        "sha256": "198b2b0ea04cbd0c0a9ae6fb7d94a691021e717982110fdfeabb4df16d0558e2",
+        "sha256_in_prefix": "198b2b0ea04cbd0c0a9ae6fb7d94a691021e717982110fdfeabb4df16d0558e2",
+        "size_in_bytes": 59640
+      },
+      {
+        "_path": "bin/makeprofiledb",
+        "path_type": "hardlink",
+        "sha256": "ed8200008c115afb0c8e60ee41c815bdca6f481e285b010dd7b998e2e78d3c82",
+        "sha256_in_prefix": "ed8200008c115afb0c8e60ee41c815bdca6f481e285b010dd7b998e2e78d3c82",
+        "size_in_bytes": 158064
+      },
+      {
+        "_path": "bin/project_tree_builder",
+        "path_type": "hardlink",
+        "sha256": "b206f362c5d33faca6e3dec69b847e2436cd3a7eab8ee13db9416ee9dd4a543b",
+        "sha256_in_prefix": "b206f362c5d33faca6e3dec69b847e2436cd3a7eab8ee13db9416ee9dd4a543b",
+        "size_in_bytes": 1022232
+      },
+      {
+        "_path": "bin/psiblast",
+        "path_type": "hardlink",
+        "sha256": "9abdf01bf80a86ecff792cf22304f1eaa6ecadf36aff9985beb719af546b3f94",
+        "sha256_in_prefix": "9abdf01bf80a86ecff792cf22304f1eaa6ecadf36aff9985beb719af546b3f94",
+        "size_in_bytes": 239992
+      },
+      {
+        "_path": "bin/rpsblast",
+        "path_type": "hardlink",
+        "sha256": "cbf50b03c2c32e1c9d74d8f6e455dca731b65c116ff98fd8657d5d7219422e5b",
+        "sha256_in_prefix": "cbf50b03c2c32e1c9d74d8f6e455dca731b65c116ff98fd8657d5d7219422e5b",
+        "size_in_bytes": 252280
+      },
+      {
+        "_path": "bin/rpsbproc",
+        "path_type": "hardlink",
+        "sha256": "e10e592db136b462139e67b74a8fe6394113edca6ce11b53b64abebec73d5f29",
+        "sha256_in_prefix": "e10e592db136b462139e67b74a8fe6394113edca6ce11b53b64abebec73d5f29",
+        "size_in_bytes": 647016
+      },
+      {
+        "_path": "bin/rpstblastn",
+        "path_type": "hardlink",
+        "sha256": "52892e7a5ff88db99216f689cb950f38b480ad7ae8b858b114335ff1196b5347",
+        "sha256_in_prefix": "52892e7a5ff88db99216f689cb950f38b480ad7ae8b858b114335ff1196b5347",
+        "size_in_bytes": 248184
+      },
+      {
+        "_path": "bin/run_with_lock",
+        "path_type": "hardlink",
+        "sha256": "812ada4a3f1cca56134a557ed56cb34d958a60ae4e0035fece3ffa3ce18aaf31",
+        "sha256_in_prefix": "812ada4a3f1cca56134a557ed56cb34d958a60ae4e0035fece3ffa3ce18aaf31",
+        "size_in_bytes": 22960
+      },
+      {
+        "_path": "bin/segmasker",
+        "path_type": "hardlink",
+        "sha256": "0ea04eb5d6e1d968ae5cf86dfbcaaf1270c366b25ba014b722f9edb72c01c711",
+        "sha256_in_prefix": "0ea04eb5d6e1d968ae5cf86dfbcaaf1270c366b25ba014b722f9edb72c01c711",
+        "size_in_bytes": 51456
+      },
+      {
+        "_path": "bin/tblastn",
+        "path_type": "hardlink",
+        "sha256": "2737e48ea00353689bf079e615274f6220628a23a5fd49de3d414a76f089df97",
+        "sha256_in_prefix": "2737e48ea00353689bf079e615274f6220628a23a5fd49de3d414a76f089df97",
+        "size_in_bytes": 215416
+      },
+      {
+        "_path": "bin/tblastx",
+        "path_type": "hardlink",
+        "sha256": "9198f90451e5bfa77ace9448f4b90460c2e3c341a56349606f7885c7b4fbfb56",
+        "sha256_in_prefix": "9198f90451e5bfa77ace9448f4b90460c2e3c341a56349606f7885c7b4fbfb56",
+        "size_in_bytes": 203128
+      },
+      {
+        "_path": "bin/update_blastdb.pl",
+        "path_type": "hardlink",
+        "sha256": "ab3d3cf3e5556e1e6be9d922b72a5c7ae55b69e67177f4647d2edefd802aeabc",
+        "sha256_in_prefix": "ab3d3cf3e5556e1e6be9d922b72a5c7ae55b69e67177f4647d2edefd802aeabc",
+        "size_in_bytes": 23316
+      },
+      {
+        "_path": "bin/update_blastdb.pl.bak",
+        "path_type": "hardlink",
+        "sha256": "ab3d3cf3e5556e1e6be9d922b72a5c7ae55b69e67177f4647d2edefd802aeabc",
+        "sha256_in_prefix": "ab3d3cf3e5556e1e6be9d922b72a5c7ae55b69e67177f4647d2edefd802aeabc",
+        "size_in_bytes": 23316
+      },
+      {
+        "_path": "bin/windowmasker",
+        "path_type": "hardlink",
+        "sha256": "c6682a8ee87c016c42d174d59d3a59e1e34a806b9715ec935ac8ceaa9cec8731",
+        "sha256_in_prefix": "c6682a8ee87c016c42d174d59d3a59e1e34a806b9715ec935ac8ceaa9cec8731",
+        "size_in_bytes": 67832
+      },
+      {
+        "_path": "bin/windowmasker_2.2.22_adapter.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/blast_1615544030046/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "ccf91215ea710ff5451d042edc3df1f768f1fd0cfaee0bfc595307d57cfbfd6c",
+        "sha256_in_prefix": "77a0242b6ae1abcd4d32f9a60a2d229b543ee5060c5aaea0750b2b16210e94bb",
+        "size_in_bytes": 6201
+      },
+      {
+        "_path": "lib/ncbi-blast+/libalign_format.so",
+        "path_type": "hardlink",
+        "sha256": "131d4079ed2f88b5d9309e9371ddf821677d9fedb6573023a73d7e11b87869c3",
+        "sha256_in_prefix": "131d4079ed2f88b5d9309e9371ddf821677d9fedb6573023a73d7e11b87869c3",
+        "size_in_bytes": 1327296
+      },
+      {
+        "_path": "lib/ncbi-blast+/libbiblio.so",
+        "path_type": "hardlink",
+        "sha256": "497c3a770b1493b25c8196092df4699a2541b93cd83a9e4eadd942f9b30b84b8",
+        "sha256_in_prefix": "497c3a770b1493b25c8196092df4699a2541b93cd83a9e4eadd942f9b30b84b8",
+        "size_in_bytes": 440496
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblast.so",
+        "path_type": "hardlink",
+        "sha256": "bdba64c75270f3cf80701915ee0d0176cc6704a86cbe2c7a882b084bcb6f1775",
+        "sha256_in_prefix": "bdba64c75270f3cf80701915ee0d0176cc6704a86cbe2c7a882b084bcb6f1775",
+        "size_in_bytes": 803488
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblast_app_util-static.a",
+        "path_type": "hardlink",
+        "sha256": "0bcdc6adec8063febc8a0af96943c2c3a658ef646522faf0563c27af1ce70c6f",
+        "sha256_in_prefix": "0bcdc6adec8063febc8a0af96943c2c3a658ef646522faf0563c27af1ce70c6f",
+        "size_in_bytes": 282642
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblast_app_util.a",
+        "path_type": "hardlink",
+        "sha256": "0bcdc6adec8063febc8a0af96943c2c3a658ef646522faf0563c27af1ce70c6f",
+        "sha256_in_prefix": "0bcdc6adec8063febc8a0af96943c2c3a658ef646522faf0563c27af1ce70c6f",
+        "size_in_bytes": 282642
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblast_services.so",
+        "path_type": "hardlink",
+        "sha256": "a4ad06a50f2b49637afc6d297bce03c6234ee548d31dd4fc2de8488c3532f34b",
+        "sha256_in_prefix": "a4ad06a50f2b49637afc6d297bce03c6234ee548d31dd4fc2de8488c3532f34b",
+        "size_in_bytes": 91456
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastdb.so",
+        "path_type": "hardlink",
+        "sha256": "4ba79ac810346d895adb8ca12b7c07da5f1ab74ae3b1fabed81b48d25ab303b0",
+        "sha256_in_prefix": "4ba79ac810346d895adb8ca12b7c07da5f1ab74ae3b1fabed81b48d25ab303b0",
+        "size_in_bytes": 114728
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastdb_format.so",
+        "path_type": "hardlink",
+        "sha256": "ea23b9d823919feef70a10b193fb48d207f19a20adeca1c2e49876c12514b147",
+        "sha256_in_prefix": "ea23b9d823919feef70a10b193fb48d207f19a20adeca1c2e49876c12514b147",
+        "size_in_bytes": 218424
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastinput.so",
+        "path_type": "hardlink",
+        "sha256": "c70a9b39f42fdacaf6c439bf077184821b4cbabbf9ff04346dcd2083ee93a72d",
+        "sha256_in_prefix": "c70a9b39f42fdacaf6c439bf077184821b4cbabbf9ff04346dcd2083ee93a72d",
+        "size_in_bytes": 901800
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastxml.so",
+        "path_type": "hardlink",
+        "sha256": "edce5dc99b80d937a0bd3c9ebee73800de0210e5cfa352d016fe688ce3c308c2",
+        "sha256_in_prefix": "edce5dc99b80d937a0bd3c9ebee73800de0210e5cfa352d016fe688ce3c308c2",
+        "size_in_bytes": 101568
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastxml2.so",
+        "path_type": "hardlink",
+        "sha256": "0c7601997c3499187ec166997d7aa4cc2689a250640bd4d71584cdedf4dc97ad",
+        "sha256_in_prefix": "0c7601997c3499187ec166997d7aa4cc2689a250640bd4d71584cdedf4dc97ad",
+        "size_in_bytes": 213064
+      },
+      {
+        "_path": "lib/ncbi-blast+/libcomposition_adjustment.so",
+        "path_type": "hardlink",
+        "sha256": "8d423a4d6d9c5afcd189f946e8c2d6cd7248a0f4a56631ee5fbcbfa93efe487a",
+        "sha256_in_prefix": "8d423a4d6d9c5afcd189f946e8c2d6cd7248a0f4a56631ee5fbcbfa93efe487a",
+        "size_in_bytes": 100064
+      },
+      {
+        "_path": "lib/ncbi-blast+/libconnect.so",
+        "path_type": "hardlink",
+        "sha256": "824d8674dbb76492d53761f58bf3e5bc7a7ea51cb70f9f56a3f2f196716fc614",
+        "sha256_in_prefix": "824d8674dbb76492d53761f58bf3e5bc7a7ea51cb70f9f56a3f2f196716fc614",
+        "size_in_bytes": 581488
+      },
+      {
+        "_path": "lib/ncbi-blast+/libdbapi_driver-static.a",
+        "path_type": "hardlink",
+        "sha256": "10ba93a17b948bcc56fa55977f32847d111b5e2dd34ce2e24ab90494da90b349",
+        "sha256_in_prefix": "10ba93a17b948bcc56fa55977f32847d111b5e2dd34ce2e24ab90494da90b349",
+        "size_in_bytes": 4315208
+      },
+      {
+        "_path": "lib/ncbi-blast+/libdbapi_driver.a",
+        "path_type": "hardlink",
+        "sha256": "10ba93a17b948bcc56fa55977f32847d111b5e2dd34ce2e24ab90494da90b349",
+        "sha256_in_prefix": "10ba93a17b948bcc56fa55977f32847d111b5e2dd34ce2e24ab90494da90b349",
+        "size_in_bytes": 4315208
+      },
+      {
+        "_path": "lib/ncbi-blast+/libdbapi_driver.so",
+        "path_type": "hardlink",
+        "sha256": "c276add8f47b924c95fa0499b2b3b2784264baf73aec68a963b92c684aacf4d8",
+        "sha256_in_prefix": "c276add8f47b924c95fa0499b2b3b2784264baf73aec68a963b92c684aacf4d8",
+        "size_in_bytes": 1614368
+      },
+      {
+        "_path": "lib/ncbi-blast+/libgbseq.so",
+        "path_type": "hardlink",
+        "sha256": "61fe08b587ea9949c9994b2345d0f206ed28633637ecec9c644a3f7baad20de3",
+        "sha256_in_prefix": "61fe08b587ea9949c9994b2345d0f206ed28633637ecec9c644a3f7baad20de3",
+        "size_in_bytes": 265128
+      },
+      {
+        "_path": "lib/ncbi-blast+/libgene_info.so",
+        "path_type": "hardlink",
+        "sha256": "e10a36f0cf337e24a4a5cd51f678fc81bfd9ebd561fbe80cecf4a66790eff430",
+        "sha256_in_prefix": "e10a36f0cf337e24a4a5cd51f678fc81bfd9ebd561fbe80cecf4a66790eff430",
+        "size_in_bytes": 103032
+      },
+      {
+        "_path": "lib/ncbi-blast+/libgeneral.so",
+        "path_type": "hardlink",
+        "sha256": "cff6cbcdd2b44fdb4a41193ea73665dc8d9d95daf66dbc5b9224b68d3f5dc5de",
+        "sha256_in_prefix": "cff6cbcdd2b44fdb4a41193ea73665dc8d9d95daf66dbc5b9224b68d3f5dc5de",
+        "size_in_bytes": 632392
+      },
+      {
+        "_path": "lib/ncbi-blast+/libgenome_collection.so",
+        "path_type": "hardlink",
+        "sha256": "909384136e3aca081682c8d9e9c8b80e17195b54a4cd4287b96d474fa5d67351",
+        "sha256_in_prefix": "909384136e3aca081682c8d9e9c8b80e17195b54a4cd4287b96d474fa5d67351",
+        "size_in_bytes": 454768
+      },
+      {
+        "_path": "lib/ncbi-blast+/libid1.so",
+        "path_type": "hardlink",
+        "sha256": "9b9cf591b5e2c319deae0093b3325cadc9b2dd09c1ef979e2669c3a98f3155dc",
+        "sha256_in_prefix": "9b9cf591b5e2c319deae0093b3325cadc9b2dd09c1ef979e2669c3a98f3155dc",
+        "size_in_bytes": 126832
+      },
+      {
+        "_path": "lib/ncbi-blast+/libid2.so",
+        "path_type": "hardlink",
+        "sha256": "ff9c5ef26b9ff21cabcc56436346a0a671fd83f077ec04cf6735105a1d99bbc1",
+        "sha256_in_prefix": "ff9c5ef26b9ff21cabcc56436346a0a671fd83f077ec04cf6735105a1d99bbc1",
+        "size_in_bytes": 378808
+      },
+      {
+        "_path": "lib/ncbi-blast+/liblmdb.so",
+        "path_type": "hardlink",
+        "sha256": "e9fbdf40a9d315b025d04ae3933c806e644609a1ca5a6ca58a013d6be3728c7a",
+        "sha256_in_prefix": "e9fbdf40a9d315b025d04ae3933c806e644609a1ca5a6ca58a013d6be3728c7a",
+        "size_in_bytes": 102256
+      },
+      {
+        "_path": "lib/ncbi-blast+/libmedlars.so",
+        "path_type": "hardlink",
+        "sha256": "d1792339ea48aab89793f75da8f022f8afc20d04fcc4a1da4b1ca4b03226daff",
+        "sha256_in_prefix": "d1792339ea48aab89793f75da8f022f8afc20d04fcc4a1da4b1ca4b03226daff",
+        "size_in_bytes": 51168
+      },
+      {
+        "_path": "lib/ncbi-blast+/libmedline.so",
+        "path_type": "hardlink",
+        "sha256": "f64808fc4eda42f4e8b44abfa538b414eede8726c2fc18236208914707859578",
+        "sha256_in_prefix": "f64808fc4eda42f4e8b44abfa538b414eede8726c2fc18236208914707859578",
+        "size_in_bytes": 150072
+      },
+      {
+        "_path": "lib/ncbi-blast+/libmla.so",
+        "path_type": "hardlink",
+        "sha256": "f206998642079fb1f1eeffc121b834b14ce19577bfee6d0c9094a630ef6e6591",
+        "sha256_in_prefix": "f206998642079fb1f1eeffc121b834b14ce19577bfee6d0c9094a630ef6e6591",
+        "size_in_bytes": 98240
+      },
+      {
+        "_path": "lib/ncbi-blast+/libmlacli.so",
+        "path_type": "hardlink",
+        "sha256": "b9d96b00d847aac31d40b530a50b4c964f3f3830af3fd9c28f9bce8d63fb5081",
+        "sha256_in_prefix": "b9d96b00d847aac31d40b530a50b4c964f3f3830af3fd9c28f9bce8d63fb5081",
+        "size_in_bytes": 73664
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_blastdb.so",
+        "path_type": "hardlink",
+        "sha256": "7073ba1f75c97a3a466ac28c10416ca169eec70fb8b3b34d2f285d01665301aa",
+        "sha256_in_prefix": "7073ba1f75c97a3a466ac28c10416ca169eec70fb8b3b34d2f285d01665301aa",
+        "size_in_bytes": 176080
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_blastdb_rmt.so",
+        "path_type": "hardlink",
+        "sha256": "1397ba0f4b4fa213055502d12146c3a6b7d9baa4788fd3aae2eb4e9521f5ea07",
+        "sha256_in_prefix": "1397ba0f4b4fa213055502d12146c3a6b7d9baa4788fd3aae2eb4e9521f5ea07",
+        "size_in_bytes": 171600
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_genbank-static.a",
+        "path_type": "hardlink",
+        "sha256": "b2551f919bae819f25476bfab6a914128838dcbcd0e49f7112654bb897436e9f",
+        "sha256_in_prefix": "b2551f919bae819f25476bfab6a914128838dcbcd0e49f7112654bb897436e9f",
+        "size_in_bytes": 614302
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_genbank.a",
+        "path_type": "hardlink",
+        "sha256": "b2551f919bae819f25476bfab6a914128838dcbcd0e49f7112654bb897436e9f",
+        "sha256_in_prefix": "b2551f919bae819f25476bfab6a914128838dcbcd0e49f7112654bb897436e9f",
+        "size_in_bytes": 614302
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_genbank.so",
+        "path_type": "hardlink",
+        "sha256": "6c661a08448e0c0f856c4f72ef6e9e5dbc07033df885c6e33e4c1efcb054de60",
+        "sha256_in_prefix": "6c661a08448e0c0f856c4f72ef6e9e5dbc07033df885c6e33e4c1efcb054de60",
+        "size_in_bytes": 348472
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader-static.a",
+        "path_type": "hardlink",
+        "sha256": "53022202bc23a3d717609313d5e94724798c3073d72935de70f8111c49d053c9",
+        "sha256_in_prefix": "53022202bc23a3d717609313d5e94724798c3073d72935de70f8111c49d053c9",
+        "size_in_bytes": 2833904
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader.a",
+        "path_type": "hardlink",
+        "sha256": "53022202bc23a3d717609313d5e94724798c3073d72935de70f8111c49d053c9",
+        "sha256_in_prefix": "53022202bc23a3d717609313d5e94724798c3073d72935de70f8111c49d053c9",
+        "size_in_bytes": 2833904
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader.so",
+        "path_type": "hardlink",
+        "sha256": "f8767de0dd98500f0df0b441ca43a92ea5a40b1bf11e272093f82c816651a94f",
+        "sha256_in_prefix": "f8767de0dd98500f0df0b441ca43a92ea5a40b1bf11e272093f82c816651a94f",
+        "size_in_bytes": 1295560
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_cache-static.a",
+        "path_type": "hardlink",
+        "sha256": "1a63b2da8139ed5f0d95b915fb1c60c34ce204c6b9d1fb76ee93a22fb7437f1e",
+        "sha256_in_prefix": "1a63b2da8139ed5f0d95b915fb1c60c34ce204c6b9d1fb76ee93a22fb7437f1e",
+        "size_in_bytes": 543808
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_cache.a",
+        "path_type": "hardlink",
+        "sha256": "1a63b2da8139ed5f0d95b915fb1c60c34ce204c6b9d1fb76ee93a22fb7437f1e",
+        "sha256_in_prefix": "1a63b2da8139ed5f0d95b915fb1c60c34ce204c6b9d1fb76ee93a22fb7437f1e",
+        "size_in_bytes": 543808
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_cache.so",
+        "path_type": "hardlink",
+        "sha256": "640104db48dad522c4d54ecc099bf0cb11da2f9162404166bc307ab2672972db",
+        "sha256_in_prefix": "640104db48dad522c4d54ecc099bf0cb11da2f9162404166bc307ab2672972db",
+        "size_in_bytes": 298600
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id1-static.a",
+        "path_type": "hardlink",
+        "sha256": "b2ff69a23598f22ea3629b19fe524b07fd543e7bbf5c08c0c68d71c3147d0870",
+        "sha256_in_prefix": "b2ff69a23598f22ea3629b19fe524b07fd543e7bbf5c08c0c68d71c3147d0870",
+        "size_in_bytes": 276640
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id1.a",
+        "path_type": "hardlink",
+        "sha256": "b2ff69a23598f22ea3629b19fe524b07fd543e7bbf5c08c0c68d71c3147d0870",
+        "sha256_in_prefix": "b2ff69a23598f22ea3629b19fe524b07fd543e7bbf5c08c0c68d71c3147d0870",
+        "size_in_bytes": 276640
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id1.so",
+        "path_type": "hardlink",
+        "sha256": "eb33154b23c2716e5a4753fb54f2e7850e8c8dcea232fff1dc3b48328fac6e54",
+        "sha256_in_prefix": "eb33154b23c2716e5a4753fb54f2e7850e8c8dcea232fff1dc3b48328fac6e54",
+        "size_in_bytes": 191264
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id2-static.a",
+        "path_type": "hardlink",
+        "sha256": "f14c07192c87135a16d9e6961d8ebda9f18cf81494a90d89840af429b67298aa",
+        "sha256_in_prefix": "f14c07192c87135a16d9e6961d8ebda9f18cf81494a90d89840af429b67298aa",
+        "size_in_bytes": 218256
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id2.a",
+        "path_type": "hardlink",
+        "sha256": "f14c07192c87135a16d9e6961d8ebda9f18cf81494a90d89840af429b67298aa",
+        "sha256_in_prefix": "f14c07192c87135a16d9e6961d8ebda9f18cf81494a90d89840af429b67298aa",
+        "size_in_bytes": 218256
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id2.so",
+        "path_type": "hardlink",
+        "sha256": "211e3f6b7d3e9da51e9e950e4fb1824c2103ced0cdb18a4eb392ab0388eaed67",
+        "sha256_in_prefix": "211e3f6b7d3e9da51e9e950e4fb1824c2103ced0cdb18a4eb392ab0388eaed67",
+        "size_in_bytes": 153008
+      },
+      {
+        "_path": "lib/ncbi-blast+/libproteinkmer.so",
+        "path_type": "hardlink",
+        "sha256": "b743c8c5cd230c4eb31ac9684be9829650561ce942da7f28b5809832b6a4629a",
+        "sha256_in_prefix": "b743c8c5cd230c4eb31ac9684be9829650561ce942da7f28b5809832b6a4629a",
+        "size_in_bytes": 282992
+      },
+      {
+        "_path": "lib/ncbi-blast+/libpsg_client.so",
+        "path_type": "hardlink",
+        "sha256": "3f62feeff7bb1ee8c07b68adcf8c59b92efc56bd23de774c83557b18a86e8794",
+        "sha256_in_prefix": "3f62feeff7bb1ee8c07b68adcf8c59b92efc56bd23de774c83557b18a86e8794",
+        "size_in_bytes": 16816
+      },
+      {
+        "_path": "lib/ncbi-blast+/libpub.so",
+        "path_type": "hardlink",
+        "sha256": "f7f6431e65e41ba2fdcb57fcc905b2c7e9d56e4fcccb9f20739ae166d3a57979",
+        "sha256_in_prefix": "f7f6431e65e41ba2fdcb57fcc905b2c7e9d56e4fcccb9f20739ae166d3a57979",
+        "size_in_bytes": 179064
+      },
+      {
+        "_path": "lib/ncbi-blast+/libpubmed.so",
+        "path_type": "hardlink",
+        "sha256": "4c4026c3370d40126a98e8d7bd218220bd7734589034e9570b792b24d0abc99b",
+        "sha256_in_prefix": "4c4026c3370d40126a98e8d7bd218220bd7734589034e9570b792b24d0abc99b",
+        "size_in_bytes": 52160
+      },
+      {
+        "_path": "lib/ncbi-blast+/libscoremat.so",
+        "path_type": "hardlink",
+        "sha256": "795e12d034ca099e73a64f9774c248a69a6dc3503fc711588761d6b08955862e",
+        "sha256_in_prefix": "795e12d034ca099e73a64f9774c248a69a6dc3503fc711588761d6b08955862e",
+        "size_in_bytes": 191936
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseq.so",
+        "path_type": "hardlink",
+        "sha256": "e5f507d1f4e4e6b70f2a77d1e527585987bd3a306eadc811b77bfc65e893721b",
+        "sha256_in_prefix": "e5f507d1f4e4e6b70f2a77d1e527585987bd3a306eadc811b77bfc65e893721b",
+        "size_in_bytes": 7952152
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqcode.so",
+        "path_type": "hardlink",
+        "sha256": "504428cb6e138c7849da3961dba0dd132d1055c10416558a59a0ab3687f90d82",
+        "sha256_in_prefix": "504428cb6e138c7849da3961dba0dd132d1055c10416558a59a0ab3687f90d82",
+        "size_in_bytes": 89104
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqdb.so",
+        "path_type": "hardlink",
+        "sha256": "095b44521a5d5cefd45ef4ccd3d43bb814d6b8adeea4ce48534d331076911fcb",
+        "sha256_in_prefix": "095b44521a5d5cefd45ef4ccd3d43bb814d6b8adeea4ce48534d331076911fcb",
+        "size_in_bytes": 1153528
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqedit.so",
+        "path_type": "hardlink",
+        "sha256": "4ced6eeaa9e48b373e903ef6ed4f7047dd18bac45f1f7b85c66d976103dfe6f0",
+        "sha256_in_prefix": "4ced6eeaa9e48b373e903ef6ed4f7047dd18bac45f1f7b85c66d976103dfe6f0",
+        "size_in_bytes": 364464
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqmasks_io.so",
+        "path_type": "hardlink",
+        "sha256": "d2410379724d6fdbf9263aa487becfad937c440c0f78e44df45adbf43be64900",
+        "sha256_in_prefix": "d2410379724d6fdbf9263aa487becfad937c440c0f78e44df45adbf43be64900",
+        "size_in_bytes": 78440
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqset.so",
+        "path_type": "hardlink",
+        "sha256": "a23e9dca0f91cff14e1e5fe9c48ba14ec42173de802c823b401323a7f41401c4",
+        "sha256_in_prefix": "a23e9dca0f91cff14e1e5fe9c48ba14ec42173de802c823b401323a7f41401c4",
+        "size_in_bytes": 208560
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqsplit.so",
+        "path_type": "hardlink",
+        "sha256": "d1f9714b9f08607543ae79e0dffbc02704e3f2f93da5a2d6bf3fa409141c5268",
+        "sha256_in_prefix": "d1f9714b9f08607543ae79e0dffbc02704e3f2f93da5a2d6bf3fa409141c5268",
+        "size_in_bytes": 395664
+      },
+      {
+        "_path": "lib/ncbi-blast+/libsequtil.so",
+        "path_type": "hardlink",
+        "sha256": "feaef80e07d080e0b43b66f2806322a4aa4a3feed3747f7e8a176bf2e6d6667a",
+        "sha256_in_prefix": "feaef80e07d080e0b43b66f2806322a4aa4a3feed3747f7e8a176bf2e6d6667a",
+        "size_in_bytes": 106424
+      },
+      {
+        "_path": "lib/ncbi-blast+/libsubmit.so",
+        "path_type": "hardlink",
+        "sha256": "e7711e019b8fc908c2b8dd50dbe5274eaeb497439f6a6616106a87d164b0f3a6",
+        "sha256_in_prefix": "e7711e019b8fc908c2b8dd50dbe5274eaeb497439f6a6616106a87d164b0f3a6",
+        "size_in_bytes": 114152
+      },
+      {
+        "_path": "lib/ncbi-blast+/libtables.so",
+        "path_type": "hardlink",
+        "sha256": "55c51514eb315ed2de3612e59c116521bd65a90c27bb9ae25c35348973fcbe79",
+        "sha256_in_prefix": "55c51514eb315ed2de3612e59c116521bd65a90c27bb9ae25c35348973fcbe79",
+        "size_in_bytes": 37824
+      },
+      {
+        "_path": "lib/ncbi-blast+/libtaxon1.so",
+        "path_type": "hardlink",
+        "sha256": "d29081c7b11a64dd10a7d7f2b6e4652d30530213b19cee5881ea2e21e8e07d19",
+        "sha256_in_prefix": "d29081c7b11a64dd10a7d7f2b6e4652d30530213b19cee5881ea2e21e8e07d19",
+        "size_in_bytes": 325504
+      },
+      {
+        "_path": "lib/ncbi-blast+/libtaxon3.so",
+        "path_type": "hardlink",
+        "sha256": "ea79da0b68fb1784d1b2833e8e12c5a5e87f5759a564b609dc5652326ac87fe5",
+        "sha256_in_prefix": "ea79da0b68fb1784d1b2833e8e12c5a5e87f5759a564b609dc5652326ac87fe5",
+        "size_in_bytes": 192544
+      },
+      {
+        "_path": "lib/ncbi-blast+/libtest_mt.so",
+        "path_type": "hardlink",
+        "sha256": "f0420e8f8fe015c4afa5f9bdd39ded8a48b01cabfd42e2dc67d5ab448778a598",
+        "sha256_in_prefix": "f0420e8f8fe015c4afa5f9bdd39ded8a48b01cabfd42e2dc67d5ab448778a598",
+        "size_in_bytes": 119808
+      },
+      {
+        "_path": "lib/ncbi-blast+/libvalid.so",
+        "path_type": "hardlink",
+        "sha256": "682eb886f783c054d6e7e28d9abf5096c668f6a17c90249e7e071cfddef5171c",
+        "sha256_in_prefix": "682eb886f783c054d6e7e28d9abf5096c668f6a17c90249e7e071cfddef5171c",
+        "size_in_bytes": 252560
+      },
+      {
+        "_path": "lib/ncbi-blast+/libvariation.so",
+        "path_type": "hardlink",
+        "sha256": "30621981e49d65376e2763fde0181fef102fec34058b704ef0d9e105d3271136",
+        "sha256_in_prefix": "30621981e49d65376e2763fde0181fef102fec34058b704ef0d9e105d3271136",
+        "size_in_bytes": 260288
+      },
+      {
+        "_path": "lib/ncbi-blast+/libwritedb.so",
+        "path_type": "hardlink",
+        "sha256": "c205962aec504174f28dfd62d8ecefed3226432af54f30f05df5ab5edc5be792",
+        "sha256_in_prefix": "c205962aec504174f28dfd62d8ecefed3226432af54f30f05df5ab5edc5be792",
+        "size_in_bytes": 631896
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalgoblastdbindex.so",
+        "path_type": "hardlink",
+        "sha256": "1304ab507fdfa736803ce366a4d6e73cb96f3bede7e450775f046cd0bbb785fb",
+        "sha256_in_prefix": "1304ab507fdfa736803ce366a4d6e73cb96f3bede7e450775f046cd0bbb785fb",
+        "size_in_bytes": 292488
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalgodustmask.so",
+        "path_type": "hardlink",
+        "sha256": "979c244a59bd36dc738f57f0b3e914ade1729f5e5c40c188f830cca5cc782704",
+        "sha256_in_prefix": "979c244a59bd36dc738f57f0b3e914ade1729f5e5c40c188f830cca5cc782704",
+        "size_in_bytes": 37320
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalgosegmask.so",
+        "path_type": "hardlink",
+        "sha256": "531978d6f6a7499470ed76496d5de3fde5556a19b5c4cdada0995de14aafdc9f",
+        "sha256_in_prefix": "531978d6f6a7499470ed76496d5de3fde5556a19b5c4cdada0995de14aafdc9f",
+        "size_in_bytes": 23168
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalgowinmask.so",
+        "path_type": "hardlink",
+        "sha256": "de210cf8a7d2ad62944ddfe7d10d8297d955ea03f48ac9b362ac99d640a84b59",
+        "sha256_in_prefix": "de210cf8a7d2ad62944ddfe7d10d8297d955ea03f48ac9b362ac99d640a84b59",
+        "size_in_bytes": 430848
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalnmgr.so",
+        "path_type": "hardlink",
+        "sha256": "db7ad048440576e86ad9d666229534fcd90cb7b07b5db8ba32f39762528ecc1a",
+        "sha256_in_prefix": "db7ad048440576e86ad9d666229534fcd90cb7b07b5db8ba32f39762528ecc1a",
+        "size_in_bytes": 878344
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxblast.so",
+        "path_type": "hardlink",
+        "sha256": "98de68895c81ab75f02e78c63e3d2728294b50a60359c1ae242f32531f831dfa",
+        "sha256_in_prefix": "98de68895c81ab75f02e78c63e3d2728294b50a60359c1ae242f32531f831dfa",
+        "size_in_bytes": 2961232
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxblastformat.so",
+        "path_type": "hardlink",
+        "sha256": "8ef27a972e72bceeefea6f915ad9687bbb39fac73650fca8b4cc2710e43dede6",
+        "sha256_in_prefix": "8ef27a972e72bceeefea6f915ad9687bbb39fac73650fca8b4cc2710e43dede6",
+        "size_in_bytes": 711784
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxcgi.so",
+        "path_type": "hardlink",
+        "sha256": "7195e879418d0bbe779f246d1ac7ba033d5c366b674fa06818c39a6e176ef7ee",
+        "sha256_in_prefix": "7195e879418d0bbe779f246d1ac7ba033d5c366b674fa06818c39a6e176ef7ee",
+        "size_in_bytes": 920792
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxcleanup.so",
+        "path_type": "hardlink",
+        "sha256": "88f696d163cd3084b4018c694654bafd9cd472bff2ca79a763ebfb684db8025e",
+        "sha256_in_prefix": "88f696d163cd3084b4018c694654bafd9cd472bff2ca79a763ebfb684db8025e",
+        "size_in_bytes": 1566728
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxcompress.so",
+        "path_type": "hardlink",
+        "sha256": "3928745ec532e5f085410220e15924986f2603c11dc7c21761c610468538729f",
+        "sha256_in_prefix": "3928745ec532e5f085410220e15924986f2603c11dc7c21761c610468538729f",
+        "size_in_bytes": 646280
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxconnect.so",
+        "path_type": "hardlink",
+        "sha256": "03978ebb7bd9cb359f603a01688682fce16e1fc636edab12585bbfdee1b6e764",
+        "sha256_in_prefix": "03978ebb7bd9cb359f603a01688682fce16e1fc636edab12585bbfdee1b6e764",
+        "size_in_bytes": 1893272
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxconnserv.so",
+        "path_type": "hardlink",
+        "sha256": "328b8678bec702b4cf49e2d4965611b11221df292d731908886af09399a8863a",
+        "sha256_in_prefix": "328b8678bec702b4cf49e2d4965611b11221df292d731908886af09399a8863a",
+        "size_in_bytes": 2074016
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxformat.so",
+        "path_type": "hardlink",
+        "sha256": "48ac988c1c335d5fc3c00ec5809f755230eee0ba680cf0e53c01c92fe96575f4",
+        "sha256_in_prefix": "48ac988c1c335d5fc3c00ec5809f755230eee0ba680cf0e53c01c92fe96575f4",
+        "size_in_bytes": 2288400
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxhtml.so",
+        "path_type": "hardlink",
+        "sha256": "9d30448047a61f6cc88ed73ce515696b4ff973c433da7ba42cfa359842269d0e",
+        "sha256_in_prefix": "9d30448047a61f6cc88ed73ce515696b4ff973c433da7ba42cfa359842269d0e",
+        "size_in_bytes": 581920
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxlogging.so",
+        "path_type": "hardlink",
+        "sha256": "97058d9f4cf582c753a0e983a9448817a334f433baa6211bc91cc338bd3be271",
+        "sha256_in_prefix": "97058d9f4cf582c753a0e983a9448817a334f433baa6211bc91cc338bd3be271",
+        "size_in_bytes": 49472
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxncbi.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/blast_1615544030046/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "b65f1ae78238d8b1a26ba9d3cbaa2fdffc2d952234f1ed9b365d61b0a27f7b85",
+        "sha256_in_prefix": "8b82dfa92ec15903d6e0b31f2932acc4c0f88d448615a36feacc01bd78c8eb9f",
+        "size_in_bytes": 3480880
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxnetblast.so",
+        "path_type": "hardlink",
+        "sha256": "659d3eebcd8ccc95cb58bd5f834f2c37eaa9cfeb63fe6cc9ab50c5709b3e9adc",
+        "sha256_in_prefix": "659d3eebcd8ccc95cb58bd5f834f2c37eaa9cfeb63fe6cc9ab50c5709b3e9adc",
+        "size_in_bytes": 762032
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxnetblastcli.so",
+        "path_type": "hardlink",
+        "sha256": "e0d8be2a4773701172f8c0eb2a16d515b34430a4ce23f6a7d33f64a4acea4af5",
+        "sha256_in_prefix": "e0d8be2a4773701172f8c0eb2a16d515b34430a4ce23f6a7d33f64a4acea4af5",
+        "size_in_bytes": 70240
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjedit.so",
+        "path_type": "hardlink",
+        "sha256": "5cb2fe5a2773f964a183a12ca343293d2f17fd524d746e4e3efe95df22642c72",
+        "sha256_in_prefix": "5cb2fe5a2773f964a183a12ca343293d2f17fd524d746e4e3efe95df22642c72",
+        "size_in_bytes": 1354736
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjmgr.so",
+        "path_type": "hardlink",
+        "sha256": "c90dd19ca6113c60e08fa17eddd4f6f13e49dba25ac7731dc2cad67241d2b8f8",
+        "sha256_in_prefix": "c90dd19ca6113c60e08fa17eddd4f6f13e49dba25ac7731dc2cad67241d2b8f8",
+        "size_in_bytes": 3945552
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjread.so",
+        "path_type": "hardlink",
+        "sha256": "aee70dc38b7eec3fe6fd2d3c2283f419e3bf9cec6853cae889b6cc857eb0f535",
+        "sha256_in_prefix": "aee70dc38b7eec3fe6fd2d3c2283f419e3bf9cec6853cae889b6cc857eb0f535",
+        "size_in_bytes": 2926048
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjsimple.so",
+        "path_type": "hardlink",
+        "sha256": "3d374cb5d6459a646af230295aa1e38fbfdba17843cfc2766d35de706a11bf5e",
+        "sha256_in_prefix": "3d374cb5d6459a646af230295aa1e38fbfdba17843cfc2766d35de706a11bf5e",
+        "size_in_bytes": 35224
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjutil.so",
+        "path_type": "hardlink",
+        "sha256": "9895836ab4f6c95e2b23965f10fd95a00fe0117ce332690e1ade2ea8216d7b55",
+        "sha256_in_prefix": "9895836ab4f6c95e2b23965f10fd95a00fe0117ce332690e1ade2ea8216d7b55",
+        "size_in_bytes": 1836776
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxregexp.so",
+        "path_type": "hardlink",
+        "sha256": "cc0c9b1e2cc51e3264f236d43a6ac8c86cbcdfc140267e218166c7a210781ad7",
+        "sha256_in_prefix": "cc0c9b1e2cc51e3264f236d43a6ac8c86cbcdfc140267e218166c7a210781ad7",
+        "size_in_bytes": 56416
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxregexp_template_tester.so",
+        "path_type": "hardlink",
+        "sha256": "470b47ea482e2267c70b87a2b04691b9b9716d65604f0f1141dd0dfce5bd9041",
+        "sha256_in_prefix": "470b47ea482e2267c70b87a2b04691b9b9716d65604f0f1141dd0dfce5bd9041",
+        "size_in_bytes": 112544
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxser.so",
+        "path_type": "hardlink",
+        "sha256": "e3fb0dc1b62763b03eb106fb6ee866e431259a97b66570882bfa5cc2ca206d40",
+        "sha256_in_prefix": "e3fb0dc1b62763b03eb106fb6ee866e431259a97b66570882bfa5cc2ca206d40",
+        "size_in_bytes": 2195720
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxthrserv.so",
+        "path_type": "hardlink",
+        "sha256": "988e86287c0b3e7eb89f822fe0544d5def9fda9a3583d6573741a100e72ce87f",
+        "sha256_in_prefix": "988e86287c0b3e7eb89f822fe0544d5def9fda9a3583d6573741a100e72ce87f",
+        "size_in_bytes": 222640
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxutil.so",
+        "path_type": "hardlink",
+        "sha256": "54ce3f8c8e6795d820af20245cdde57198ba0fbc3dda34f40d1dd0c442935c65",
+        "sha256_in_prefix": "54ce3f8c8e6795d820af20245cdde57198ba0fbc3dda34f40d1dd0c442935c65",
+        "size_in_bytes": 1393464
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "blast",
+  "sha256": "5829c73343201758e41b54f8e0d5d0373264bba3899885a4290343c1f959c2b3",
+  "size": 21788127,
+  "subdir": "linux-64",
+  "timestamp": 1615547801414,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/blast-2.11.0-pl526he19e7b1_0.tar.bz2",
+  "version": "2.11.0"
+}

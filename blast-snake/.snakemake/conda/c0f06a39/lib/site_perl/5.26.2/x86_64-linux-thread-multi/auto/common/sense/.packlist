@@ -1,0 +1,3 @@
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/x86_64-linux-thread-multi/common/sense.pm relocate_as=../../../common/sense.pm
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/lib/site_perl/5.26.2/x86_64-linux-thread-multi/common/sense.pod relocate_as=../../../common/sense.pod
+/vortexfs1/omics/alexander/akrinos/2021-Tutorial-Materials/transcriptomics/code/blast-snake/.snakemake/conda/c0f06a39/man/man3/common::sense.3 relocate_as=../../../../../../../man/man3/common::sense.3
