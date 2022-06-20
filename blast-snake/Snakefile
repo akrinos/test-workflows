@@ -16,26 +16,30 @@ def unpack_list(list_in):
     return return_list 
     
 OUTPUTDIR = config["outputdir"]
+org_dict = dict(zip(["zebrafish","crypto"],["Danio_rerio.GRCz11.pep.all.fa.gz","Crypto2293.aa.fasta.gz"]))
+
+def getfilename(org):
+    return os.path.join("..","data",org_dict[org])
 
 rule all:
     input:
-        blast_db = os.path.join(OUTPUTDIR,"zebrafish_db.fasta")
+        blast_db = expand(os.path.join(OUTPUTDIR,"{org}_db.fasta"),org=["zebrafish","crypto"])
 
 rule blast_db:
     input:
-        os.path.join("..","data","Danio_rerio.GRCz11.pep.all.fa.gz")
+        lambda filename: getfilename(filename.org)
     output:
-        os.path.join(OUTPUTDIR,"zebrafish_db.fasta")
-    conda:
-        "blast-env.yaml"
+        os.path.join(OUTPUTDIR,"{org}_db.fasta")
+    #conda:
+    #    "blast-env.yaml"
     params:
-        extra = ""
+        org = "{org}"
     log:
-        err = os.path.join("logs","salmon","index_salmon_err.log"),
-        out = os.path.join("logs","salmon","index_salmon_out.log")
+        err = os.path.join("logs","blast","{org}_db_err.log"),
+        out = os.path.join("logs","blast","{org}_db_out.log")
     shell:
         '''
-        gunzip {input} | makeblastdb -in -title zeb -out {output} -dbtype prot -parse_seqids
+        gunzip {input} | makeblastdb -in -title {params.org} -out {output} -dbtype prot -parse_seqids
         '''
                 
 rule blast_compare:
